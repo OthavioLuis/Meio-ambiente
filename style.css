@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: url(img/banner.svg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: -webkit-center;
+    font-family: Roboto;
+}
+
+header {
+    width: 100%;
+    background-color: #4B6530;
+}
+header img {
+    width: 55px;
+    margin: 10px auto;
+}
+
+.caixa-pai {
+    padding-top: 50px;
+    text-align: -webkit-center;
+}
+
+.caixa-pai h1 {
+    font-family: 'Roboto';
+    color: aliceblue;
+}
+.caixa-pai p {
+    color: #8DBD5B;
+    background-color: aliceblue;
+    width: 80px;
+    left: 0;
+    border-radius: 3px;
+}
+
+.caixa-mae {
+    width: 100%;
+    max-width: 980px;
+    color: white;
+}
+
+.caixa1, .caixa2, .caixa3 {
+    width: 300px;
+    height: 250px;
+    margin: 30px 16px 10px 16px;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.caixa1 {
+    margin-right: auto;
+    text-align: left;
+    background-color: #6F9447;
+}
+.caixa2 {
+    margin-left: auto;
+    text-align: right;
+    background-color: #324220;
+}
+.caixa3 {
+    margin: 50px auto;
+    text-align: justify;
+    background-color: #8DBD5B;
+    height: 200px;
+}
+
+footer {
+    height: 100px;
+    background-color: #4B6530;
+    color: white;
+}
+
+.img-logo-othavio {
+    width: 200px;
+    margin-top: 7px;
+}
+.name {
+    color: white;
+    text-decoration: none;
+}
+.fa-brands {
+    font-size: 20px;
+    margin: 5px 5px;
+}
+footer p {
+    margin-bottom: 7px;
+}
